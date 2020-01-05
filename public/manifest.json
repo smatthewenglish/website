@@ -1,6 +1,6 @@
 {
-  "short_name": "React Kotlin App",
-  "name": "Create React Kotlin App Sample",
+  "short_name": "tschess",
+  "name": "tschess: the american football of chess",
   "icons": [
     {
       "src": "favicon.ico",

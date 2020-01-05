@@ -53,6 +53,14 @@ class App : RComponent<RProps, RState>() {
         }
 
 
+        div("App-footer") {
+
+            h3 {
+                +"copyright 2020"
+            }
+
+
+        }
 
 
 

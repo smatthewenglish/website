@@ -31,6 +31,14 @@ padding: 40px;
   font-size: medium;
 }
 
+.App-footer{
+  background-color: #000;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: right;
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: light;

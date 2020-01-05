@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000;
+  height: 250px;
+  padding: 20px;
+  color: white;
+
+}
+
+.App-store {
+ padding: 40px;
+}
+
+.App-contrib {
+
+  padding: 40px;
+}
+
+
+.App-intro {
+padding: 40px;
+  font-size: large;
+}
+
+.App-ticker {
+padding: 40px;
+ background-color: #000;
+  font-size: medium;
+}
+
+.App-footer{
+  background-color: #000;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: light;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+h1, h2, h3, h4, blockquote, q, .maia-nav ul {
+   font-family: 'open sans';
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Logo {
+  position: relative;
+  display: inline-block;
+}
+
+.Logo-react {
+  animation: Logo-spin infinite 10s linear;
+  height: 150%;
+}
+
+.Logo-kotlin {
+  opacity: 0;
+  animation: Logo-spin infinite 10s 5s linear;
+  height: 150%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+@keyframes Logo-spin {
+  from { transform: rotateY(-90deg); opacity: 1 }
+  50% { transform: rotateY(90deg); opacity: 1 }
+  51% { transform: rotateY(90deg); opacity: 0 }
+  to { transform: rotateY(270deg); opacity: 0 }
+}
+
+
+/*# sourceMappingURL=main.65114994.css.map*/
